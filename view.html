@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Plans</title>
+    <style type=text/css>
+    #tableView{
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    #input{
+      
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px;
+    }
+    #tableView td, #tableView th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tableView tr:nth-child(even){background-color: #f2f2f2;}
+
+#tableView tr:hover {background-color: #ddd;}
+
+#tableView th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+    .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #13a8ff;
+    color: white;
+  }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="home.html">Home</a>
+        <a class="active" href="view.html">Plans</a>
+        <a href="photos.html">Photos</a>
+    </div>
+    <br>
+    <input type="text" id="input" placeholder="Search for packages..">
+    <table id="tableView">
+        <tr>
+          <th>Destination</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Kashmir</td>
+          <td>₹19,000</td>
+        </tr>
+        <tr>
+          <td>Gangtok</td>
+          <td>₹20,000</td>
+        </tr>
+        <tr>
+            <td>Mount Abu</td>
+            <td>₹5,000</td>
+          </tr>
+        <tr>
+            <td>Bangkok</td>
+            <td>₹87,000</td>
+        </tr>
+        <tr>
+            <td>Mauritus</td>
+            <td>₹94,00,000</td>
+        </tr>
+        <tr>
+            <td>Colombo</td>
+            <td>₹60,000</td>
+        </tr>
+        <tr>
+            <td>Vietnam</td>
+            <td>₹95,000</td>
+        </tr>
+        <tr>
+            <td>Sydney</td>
+            <td>₹38,000</td>
+        </tr>
+        <tr>
+            <td>Machu Picchu</td>
+            <td>₹70,000</td>
+        </tr>
+        <tr>
+            <td>Cape Town</td>
+            <td>₹60,000</td>
+        </tr>
+        <tr>
+            <td>New Zealand</td>
+            <td>₹1,00,000</td>
+        </tr>
+        <tr>
+            <td>Rome</td>
+            <td>₹85,000</td>
+        </tr>
+        <tr>
+            <td>Jaipur</td>
+            <td>₹23,000</td>
+        </tr>
+        <tr>
+            <td>Las Vegas</td>
+            <td>₹1,70,000</td>
+        </tr>
+        <tr>
+            <td>Hawaii</td>
+            <td>₹2,00,000</td>
+        </tr>
+        <tr>
+            <td>Miami</td>
+            <td>₹90,000</td>
+        </tr>
+        <tr>
+            <td>Beijing</td>
+            <td>₹50,000</td>
+        </tr>
+        <tr>
+            <td>Hong Kong</td>
+            <td>₹3,00,000</td>
+        </tr>
+        <tr>
+            <td>Shenzen</td>
+            <td>₹78,000</td>
+        </tr>
+        <tr>
+            <td>New York City</td>
+            <td>₹1,90,000</td>
+        </tr>
+        <tr>
+            <td>London</td>
+            <td>₹1,20,000</td>
+        </tr>
+        
+
+
+
+
+
+
+
+
+        <h2 id="h2Nothing"></h2>
+      </table>
+      <script src="view.js"></script>
+</body>
+</html>
